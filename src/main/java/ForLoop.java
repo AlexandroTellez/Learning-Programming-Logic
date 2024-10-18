@@ -1,6 +1,6 @@
 /* Los bucles for (forLoop) nos permiten realizar una accion de forma repetida, el numero de veces que tu quieras.
    Ejemplo: Quieres borrar todos los contactos de tu agenda de telefono. Imaginate que tienes 50 contactos, en
-   vez de borrar individualmente cada uno, realizaras un bucle for o While que borre 50 veces para eliminar esos
+   vez de borrar individualmente cada uno, realizaras un bucle for que borre 50 veces para eliminar esos
    contactos. Asi, realizas todo de forma optima y ahorrando tiempo. */
 
 public class ForLoop {
