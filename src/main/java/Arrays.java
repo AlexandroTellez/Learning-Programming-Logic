@@ -16,6 +16,7 @@ public class Arrays {
 
         /* En este caso estamos inicializando un nuevo Array con 3 elementos "[3]"
          Recuerdad, que se empieza desde el 0 a inicializar la lista de variables.
+
          Ejemplo de Array:
 
          String myArray[];
@@ -27,15 +28,17 @@ public class Arrays {
          myArray[2] = "Juan";
 
           System.out.println(myArray[1]);
-        */
+
+          /* Al poner [1] nos saldra cuando hagamos el "run" el nombre de "Miguel".*/
 
         /* Otra forma de crear un array.
-        Recuerda que si dejamos el valor vacio "[]" podemos poner entreparentesis todas las variables que queramos. */
+
+         Recuerda que si dejamos el valor vacio "[]" podemos poner entreparentesis todas las variables que queramos. */
 
         String myArray[] = {"Pedro", "Miguel"};
         System.out.println(myArray[0]);
 
         /* Al poner [0] nos saldra cuando hagamos el "run" el nombre de "Pedro".*/
-        /* Util: Si un valor te da "null" significa que no tiene nada, que es una variable con contenido vacio.*/
+        /* Recuerda: Si un valor te da "null" significa que no tiene nada, que es una variable con contenido vacio.*/
     }
 }

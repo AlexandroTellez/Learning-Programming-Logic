@@ -16,7 +16,8 @@ public class Calculator {
 
         Scanner sc = new Scanner(System.in);
         /* Scanner sc = new Scanner(System.in); -> esto sirve para inicializar el obejeto "sc" de la clase "Scanner"
-        que enlazando lo con "(System.in), produce que podamos leer dentro de consola. */
+           que enlazando lo con "(System.in), produce que podamos leer dentro de consola y escrbir dentro el numero
+           que queremos calcular en nuuestra calculadora. */
 
         System.out.println("Introduce el primer número");
         double firstNumber = sc.nextDouble();
@@ -153,4 +154,3 @@ public class Calculator {
             return firstNumber / secondNumber;
         }
 }
-/*  */

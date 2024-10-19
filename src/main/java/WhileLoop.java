@@ -13,13 +13,13 @@ public class WhileLoop {
               boolean isRaining = true;
 
               while(isRaining){
+               System.out.println("Is raining");
+               }
 
             - while(isRaining) -> se traduce a "mientas (esta lloviendo)" lo de dentro del parentesis es una
               "condicion", normalmente siempre necesitamos una con esta estructura de control, por lo tanto,
                debemos inicializar la mayoria de las veces un boolean como hemos hecho al principio
                (boolean isRaining = true;).
-
-               System.out.println("Is raining");
 
             - El resultado de  while(isRaining){  System.out.println("Is raining"); } -> seria infinito ya que
               la condicion es "true" (hay que tener cuidado porque se nos peta el ordenador en el run ya que no pararia

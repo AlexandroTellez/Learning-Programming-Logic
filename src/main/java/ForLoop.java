@@ -7,7 +7,7 @@ public class ForLoop {
 
     public static void main(String[] args){
 
-        /* for: significa "para" como veremos necesitamos el contado (int i = 0) , se suele poner "i" como valor
+        /* for: significa "para" como veremos necesitamos el contador (int i = 0) , se suele poner "i" como valor
            contador como nomenclatura general, si necesitamos mas valores seguiremos por orden algabetico (i, j, k...)
 
            Ejemplo 1: Basico
@@ -17,17 +17,20 @@ public class ForLoop {
 
            -> Ponemos lo primero el "for" que es la estructura de control que utilizaremos, despues dentro del
            parentesis escribiremos lo siguiente: la primera parte "int i = 0;" es el numero de veces que queremos que
-           se ejecute, en este caso 0 (una sola vez), Esta variable será usada como contador para controlar cuántas
+           se ejecute, en este caso 0 (una sola vez), esta variable será usada como contador para controlar cuántas
            veces se ejecuta el bucle.
+
            La segunda parte "i < 10;" antes de ejecutar cada iteración (vuelta) del bucle, se evalúa esta condición.
            Si la condición es verdadera, el bucle se ejecuta. Si es falsa, el bucle se detiene.
            En este caso, i < 10 significa que el bucle continuará ejecutándose mientras el valor de i sea menor que 10
            (Mientras i sea 0, 1, 2, ..., 9, el bucle se ejecuta. Cuando i llegue a 10, el bucle se detendrá
            porque 10 < 10 es falso).
+
            Y la tercera parte "i++" Después de que el cuerpo del bucle haya sido ejecutado, se ejecuta esta parte.
-           En este caso, i++ es una forma abreviada de decir incrementa el valor de i en 1. Entonces, después de cada
+           En este caso, "i++" es una forma abreviada de decir incrementa el valor de i en 1. Entonces, después de cada
            vuelta del bucle, el valor de i se incrementa de 1 en 1. (Después de que i es 0 en la primera iteración, se
            incrementará a 1 en la siguiente. Luego a 2, 3, y así sucesivamente hasta llegar a 9).
+
            De bajo la parte de "System.out.println("Hola :"+i);" siginifica que se imprimira hola 10 veces empezando
            desde 0 y al poner "+i" te pondra al lado un contador con las veces que se realiza comenzando desde cero.
 
